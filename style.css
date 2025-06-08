@@ -3,3 +3,149 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 98px;
+    width: 100%;
+    background-color: #1F2C3B;
+    justify-content: space-between;
+    position: fixed;
+    /* position: relative; */
+}
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #677079;
+    list-style: none;
+    padding-right: 40px;   
+}
+
+a {
+    text-decoration: none;
+    color: #677079;
+}
+
+a:hover {
+    color: #EDCD20;
+}
+
+
+
+section.home {
+    display: flex;
+    height: 800px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.home video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home h1 {
+    text-align: center;
+    color: white;
+}
+
+
+section.services {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
+}
+
+section.services .cards  {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+section.services .cards .card1 {
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section.services .cards .card1 .upperside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.services .cards .card1 .lowerside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    gap: 30px;
+    background-color: #F7F7F7;
+    
+}
+
+
+section.services .cards .card2 {
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+section.services .cards .card2 .upperside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.services .cards .card2 .lowerside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    gap: 30px;
+    background-color: #F7F7F7;
+    
+}
+
+/*  */
+section.services .cards .card3 {
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+section.services .cards .card3 .upperside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.services .cards .card3 .lowerside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    gap: 30px;
+    background-color: #F7F7F7;
+    
+}
